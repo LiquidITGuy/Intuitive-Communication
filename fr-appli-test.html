@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="scriptTest.js"></script>
+	</head>
+	<body onload="initialize()">
+		<div onscroll="function (oEvent) {
+		console.log(oEvent);
+ }" id="picto" class="content" >
+		</div>
+		<div id="phrase"></div>
+
+		<div id="actions">
+			<img onclick="retourMot()" id="back" src="img/back.png" width="100px" alt="back"></img>
+			<img onClick="listen()" id="listenee" src="img/play.png"></img>
+			<img onclick="initialize()" id="back" src="img/refresh.png" width ="100px" alt="back"></img>
+		</div>
+	</body>
+	<span id="contentOfText"></span>
+</html>
